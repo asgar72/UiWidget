@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UiWidgets</string>
+
+    <string-array name="cities">
+        <item>Select City</item>
+        <item>Jaunpur</item>
+        <item>Lucknow</item>
+        <item>Banglore</item>
+        <item>Emampur</item>
+        <item>Delhi</item>
+    </string-array>
+</resources>
