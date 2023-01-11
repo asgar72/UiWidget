@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DatepickerDemo">
+
+    <DatePicker
+        android:id="@+id/datepicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:datePickerMode="calendar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:onClick="getDate"
+        android:text="Click me " />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_design"
+        android:hint="Select Date"
+        android:padding="10dp"
+        android:paddingLeft="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/tv_dates"
+        android:drawableLeft="@drawable/calender"
+        android:drawablePadding="10dp"/>
+
+</LinearLayout>

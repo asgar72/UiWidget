@@ -11,11 +11,12 @@ import android.widget.TextView;
 
 import com.asgar.uiwidgets.Form.MyForm;
 import com.asgar.uiwidgets.Form.SpinnerDemo;
+import com.asgar.uiwidgets.Form.ToggleBtnSwitchDemo;
 
 public class ButtonClickEvent extends AppCompatActivity {
 
     EditText my_et_name;
-    Button my_btn_one, btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner;
+    Button my_btn_one, btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgBtn,btn_rating,btn_Datepicker,btn_Timepicker;
     TextView my_tv_name;
 
     @Override
@@ -32,6 +33,11 @@ public class ButtonClickEvent extends AppCompatActivity {
         btn_main3 = findViewById(R.id.btn_Main3);
         btn_Form = findViewById(R.id.btn_Form);
         btn_spinner = findViewById(R.id.btn_spinner);
+        btn_toggle = findViewById(R.id.btn_toggle);
+        btn_imgBtn=findViewById(R.id.btn_imgBtn);
+        btn_rating = findViewById(R.id.btn_rating);
+        btn_Datepicker = findViewById(R.id.btn_Datepicker);
+        btn_Timepicker =findViewById(R.id.btn_Timepicker);
 
         my_btn_one.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,6 +80,39 @@ public class ButtonClickEvent extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), SpinnerDemo.class));
+            }
+        });
+
+        btn_toggle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ToggleBtnSwitchDemo.class));
+            }
+        });
+
+        btn_imgBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),ImgButton.class));
+            }
+        });
+        btn_rating.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), RatingBarDemo.class));
+            }
+        });
+        btn_Datepicker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), DatepickerDemo.class));
+            }
+        });
+
+        btn_Timepicker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),TimepickerDemo.class));
             }
         });
 

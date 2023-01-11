@@ -92,6 +92,50 @@
             android:textAllCaps="false"
             android:id="@+id/btn_spinner"
             android:layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle_$_Switch"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_toggle"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image_Button"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_imgBtn"
+            android:layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating_Bar"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_rating"
+            android:layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date_Picker"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_Datepicker"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time_Picker"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_Timepicker"
+            android:layout_weight="1"/>
+
+
 
 
     </LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImgButton"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageButton
+        android:layout_margin="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/imgbtn_design"
+        android:src="@drawable/homework"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/m1"
+        android:layout_gravity="bottom"
+        android:scaleType="fitXY"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        />
+
+
+
+</LinearLayout>

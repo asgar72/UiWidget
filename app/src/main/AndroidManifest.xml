@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UiWidgets">
         <activity
+            android:name=".DatepickerDemo"
+            android:exported="false" />
+        <activity
+            android:name=".TimepickerDemo"
+            android:exported="false" />
+        <activity
+            android:name=".ImgButton"
+            android:exported="false" />
+        <activity
+            android:name=".RatingBarDemo"
+            android:exported="false" />
+        <activity
             android:name=".Form.ToggleBtnSwitchDemo"
             android:exported="false" />
         <activity
