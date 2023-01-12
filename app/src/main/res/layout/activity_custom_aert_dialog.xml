@@ -4,18 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SpinnerDemo"
+    tools:context=".Custom_Aert_Dialog"
     android:orientation="vertical"
-    android:padding="20dp"
     android:gravity="center">
 
-    <Spinner
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:entries="@array/cities"
-        android:padding="10dp"
-        android:background="@drawable/spinnerdesign"
-        android:theme="@style/city_spinner"
-        android:popupBackground="@color/black"/>
+        android:text="Open Custom Dialog"
+        android:onClick="openCustomDialog"/>
 
 </LinearLayout>

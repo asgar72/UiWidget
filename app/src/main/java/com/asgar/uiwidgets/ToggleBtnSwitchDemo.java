@@ -1,4 +1,4 @@
-package com.asgar.uiwidgets.Form;
+package com.asgar.uiwidgets;
 
 import androidx.appcompat.app.AppCompatActivity;
 

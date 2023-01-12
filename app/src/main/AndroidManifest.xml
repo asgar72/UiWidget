@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UiWidgets">
         <activity
+            android:name=".ProgressBarDemo"
+            android:exported="false" />
+        <activity
+            android:name=".SeekBarDemo"
+            android:exported="false" />
+        <activity
+            android:name=".Custom_Aert_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Alert_Dialog_Demo"
+            android:exported="false" />
+        <activity
+            android:name=".SameDesgin"
+            android:exported="false" />
+        <activity
             android:name=".DatepickerDemo"
             android:exported="false" />
         <activity
@@ -22,16 +37,13 @@
             android:name=".RatingBarDemo"
             android:exported="false" />
         <activity
-            android:name=".Form.ToggleBtnSwitchDemo"
+            android:name=".ToggleBtnSwitchDemo"
             android:exported="false" />
         <activity
-            android:name=".Form.SpinnerDemo"
+            android:name=".SpinnerDemo"
             android:exported="false" />
         <activity
-            android:name=".Form.MyForm"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".MyForm"
             android:exported="false" />
         <activity
             android:name=".CustomToast"
@@ -41,6 +53,9 @@
             android:exported="false" />
         <activity
             android:name=".ButtonClickEvent"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

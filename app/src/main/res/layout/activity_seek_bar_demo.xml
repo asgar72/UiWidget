@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeekBarDemo"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <SeekBar
+        android:id="@+id/my_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:thumb="@drawable/person"
+        android:background="@drawable/custom_progress"
+
+        />
+<!--
+ android:progress="40"
+ android:indeterminate="true"
+ android:rotation="270"
+ -->
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:id="@+id/sb_value"/>
+
+</LinearLayout>
