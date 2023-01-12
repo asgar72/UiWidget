@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgBtn, btn_rating,btn_Datepicker,btn_Timepicker,
-       custom_alert,btn_alertDialog,seek_bar,btn_progressbar;
+       custom_alert,btn_alertDialog,seek_bar,btn_progressbar,btn_proDialog,btn_Scroll,btn_Horizontal,btn_Flipper,btn_ImageSwitcher;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +28,12 @@ Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgB
         custom_alert = findViewById(R.id.custom_alert);
         seek_bar = findViewById(R.id.seek_bar);
         btn_progressbar = findViewById(R.id.btn_progressbar);
+        btn_proDialog = findViewById(R.id.btn_proDialog);
+        btn_Scroll = findViewById(R.id.btn_Scroll);
+        btn_Horizontal = findViewById(R.id.btn_Horizontal);
+        btn_Flipper = findViewById(R.id.btn_Flipper);
+        btn_ImageSwitcher = findViewById(R.id.btn_ImageSwitcher);
+
 
         btn_toast1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,6 +118,36 @@ Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgB
             @Override
             public void onClick(View v) {
                     startActivity(new Intent(getApplicationContext(),ProgressBarDemo.class));
+            }
+       });
+        btn_proDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    startActivity(new Intent(getApplicationContext(),ProgressDialogDemo.class));
+            }
+       });
+        btn_Scroll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    startActivity(new Intent(getApplicationContext(),ScrollViewDemo.class));
+            }
+       });
+        btn_Horizontal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    startActivity(new Intent(getApplicationContext(),Horizontal_ScrollView.class));
+            }
+       });
+        btn_Flipper.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    startActivity(new Intent(getApplicationContext(),ViewFlipperDemo.class));
+            }
+       });
+        btn_ImageSwitcher.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    startActivity(new Intent(getApplicationContext(),ImageSwitcherDemo.class));
             }
        });
 

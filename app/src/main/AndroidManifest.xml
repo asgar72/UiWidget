@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UiWidgets">
         <activity
+            android:name=".ImageSwitcherDemo"
+            android:exported="false" />
+        <activity
+            android:name=".ViewFlipperDemo"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollViewDemo"
+            android:exported="false" />
+        <activity
+            android:name=".Horizontal_ScrollView"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressDialogDemo"
+            android:exported="false" />
+        <activity
             android:name=".ProgressBarDemo"
             android:exported="false" />
         <activity
