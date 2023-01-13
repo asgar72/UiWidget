@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UiWidgets">
         <activity
+            android:name=".AdaptorsDemoOne.MainActivityOne"
+            android:exported="false" />
+        <activity
             android:name=".ImageSwitcherDemo"
             android:exported="false" />
         <activity
