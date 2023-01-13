@@ -18,3 +18,10 @@ In this app same example of UI Widgets like :
 16.Custom AlertDialog
 17.Seekbar
 18.ProgressBar
+19.ProgressDialog
+20.HorizontalScrollView
+21.ViewFlipper
+22.ImageSwitcher & ViewSwitcher		
+23.GridView (using Adaptors)
+24.ListView (using Adaptors)
+25.Spinner (using Adaptors)
