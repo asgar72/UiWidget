@@ -4,12 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".AdaptorsDemoOne.MainActivityOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="This is GridView Using Adapters"
+            android:textColor="@color/spinner_bg"
+            android:textSize="20sp" />
+    </LinearLayout>
 
     <GridView
         android:id="@+id/gridview_one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numColumns="3"/>
+        android:numColumns="3" />
 
 </LinearLayout>

@@ -276,11 +276,11 @@
                 android:textSize="15sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btFlipper"
+                android:id="@+id/btGrid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="View_Flipper"
+                android:text="Grid_View"
                 android:textAllCaps="false"
                 android:textSize="15sp" />
         </LinearLayout>
