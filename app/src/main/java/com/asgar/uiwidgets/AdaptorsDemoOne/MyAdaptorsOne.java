@@ -15,7 +15,6 @@ import com.asgar.uiwidgets.R;
 public class MyAdaptorsOne extends BaseAdapter {
 
     //create a constructor
-
     Context context;
     int[] data;
     LayoutInflater inflater;

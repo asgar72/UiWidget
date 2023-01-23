@@ -8,12 +8,13 @@ import android.view.View;
 import android.widget.Button;
 
 import com.asgar.uiwidgets.AdaptorsDemoOne.MainActivityOne;
+import com.asgar.uiwidgets.AdaptorsDemoThree.MainActivityThree;
 import com.asgar.uiwidgets.AdaptorsDemoTwo.MainActivityTwo;
 
 public class MainActivity extends AppCompatActivity {
 Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgBtn, btn_rating,btn_Datepicker,btn_Timepicker,
        custom_alert,btn_alertDialog,seek_bar,btn_progressbar,btn_proDialog,btn_Scroll,btn_Horizontal,btn_Flipper,
-        btn_ImageSwitcher,btGrid,btn_List;
+        btn_ImageSwitcher,btGrid,btn_List,btn_List2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,7 @@ Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgB
         btn_ImageSwitcher = findViewById(R.id.btn_ImageSwitcher);
         btGrid = findViewById(R.id.btGrid);
         btn_List = findViewById(R.id.btn_List);
+        btn_List2 = findViewById(R.id.btn_List2);
 
 
         btn_toast1.setOnClickListener(new View.OnClickListener() {
@@ -166,6 +168,12 @@ Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgB
             @Override
             public void onClick(View v) {
                     startActivity(new Intent(getApplicationContext(), MainActivityTwo.class));
+            }
+       });
+        btn_List2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    startActivity(new Intent(getApplicationContext(), MainActivityThree.class));
             }
        });
 

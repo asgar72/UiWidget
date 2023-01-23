@@ -8,6 +8,14 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="email in Toast and print the email in textview"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
     <EditText
         android:id="@+id/et_email"
         android:layout_width="match_parent"

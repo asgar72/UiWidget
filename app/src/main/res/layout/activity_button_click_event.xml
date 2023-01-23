@@ -8,7 +8,14 @@
     android:orientation="vertical"
     tools:context=".ButtonClickEvent"
     android:padding="20dp">
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Name print in textView"
+    android:textSize="20sp"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    android:textColor="@color/black"/>
     <EditText
         android:id="@+id/et_name"
         android:layout_width="match_parent"
