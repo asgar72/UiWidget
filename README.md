@@ -1,5 +1,5 @@
 # UiWidget
-In this app same example of UI Widgets like :
+In this app some example of UI Widgets like :
 1.Button
 2.TextView
 3.EditText
