@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UiWidgets">
         <activity
-            android:name=".MainActivityThree"
+            android:name=".AdaptorsDemoThree.MainActivityThree"
             android:exported="false" />
         <activity
             android:name=".AdaptorsDemoTwo.MainActivityTwo"

@@ -7,6 +7,10 @@ import android.widget.GridView;
 
 import com.asgar.uiwidgets.R;
 
+                            //BaseAdapter Use
+//In this activity which Adapter use  BaseAdapter use...
+//First create a activity and create a array in activity insert the data source ..
+//then complete xml file and then create a UI layout for showing data source which  form ..
 public class MainActivityOne extends AppCompatActivity {
     GridView gridview_one;
 

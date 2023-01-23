@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import com.asgar.uiwidgets.R;
-
+                        //BaseAdopter use
 public class MainActivityTwo extends AppCompatActivity {
 
     ListView listView_two;
