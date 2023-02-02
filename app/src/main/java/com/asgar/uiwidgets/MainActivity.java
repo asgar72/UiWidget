@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgBtn, btn_rating,btn_Datepicker,btn_Timepicker,
        custom_alert,btn_alertDialog,seek_bar,btn_progressbar,btn_proDialog,btn_Scroll,btn_Horizontal,btn_Flipper, btn_ImageSwitcher,
-        btsearch;
+        btsearch,btnweb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +35,7 @@ Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgB
         btn_Flipper = findViewById(R.id.btn_Flipper);
         btn_ImageSwitcher = findViewById(R.id.btn_ImageSwitcher);
         btsearch = findViewById(R.id.btsearch);
+        btnweb = findViewById(R.id.btnweb);
 
 
         btn_toast1.setOnClickListener(new View.OnClickListener() {
@@ -157,6 +158,13 @@ Button btn_toast1, btn_toast2,btn_main3,btn_Form,btn_spinner,btn_toggle,btn_imgB
             @Override
             public void onClick(View v) {
                 Intent ob = new Intent(getApplicationContext(),SearchView.class);
+                startActivity(ob);
+            }
+        });
+        btnweb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ob = new Intent(getApplicationContext(),WebView1.class);
                 startActivity(ob);
             }
         });
